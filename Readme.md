@@ -1,12 +1,11 @@
-📈 Python Graph Maker (Pygame)
+# 📈 Python Graph Maker (Pygame)
 
 A real-time 2D graph plotting application built using Python and Pygame.
 It renders a customizable Cartesian plane and plots mathematical functions dynamically, with support for multiple functions, scaling, projections, and progressive rendering.
 
 
----
 
-🚀 Features
+## 🚀 Features
 
 📊 Draws a fully labeled Cartesian coordinate system
 
@@ -27,12 +26,10 @@ It renders a customizable Cartesian plane and plots mathematical functions dynam
 🧠 Supports any Python lambda-based function input
 
 
-
----
-
-🧮 Example Functions
+## 🧮 Example Functions
 
 You can define functions like this:
+
 
 functions = [
     (lambda x: x**2 - 1, "red"),
@@ -44,17 +41,15 @@ Each function is a tuple:
 (function, color)
 
 
----
 
-🖥️ Preview
+## 🖥️ Preview
 
 The program displays:
 
 ![Graph Preview](assets/graph.png)
 
----
 
-⚙️ Configuration Options
+## ⚙️ Configuration Options
 
 You can customize the graph behavior using these variables:
 
@@ -66,7 +61,7 @@ scale_text_color = "black"
 plane_lines_color = "black"
 scale_line_color = "red"
 
-📌 Graph Settings
+## 📌 Graph Settings
 
 origin = [WIDTH//2, HEIGHT//4 + 100]
 x_limit = WIDTH/2.2
@@ -77,9 +72,8 @@ dx = 0.5
 plot_range = (-10, 10)
 
 
----
 
-🎛️ Optional Features
+## 🎛️ Optional Features
 
 You can toggle features by changing these flags:
 
@@ -90,35 +84,32 @@ show_coordinates = False
 progressively_draw_graph = True
 
 
----
 
-📦 Requirements
+## 📦 Requirements
 
 Install dependencies:
 
 pip install pygame
 
 
----
 
-▶️ How to Run
+## ▶️ How to Run
 
 Clone the repository:
 
-git clone https://github.com/UbaidKhan-1/Python-Graph-maker.git
+'git clone https://github.com/UbaidKhan-1/Python-Graph-maker.git'
 
-cd Python-Graph-maker
+'cd Python-Graph-maker'
 
 Run the program:
-python graph2.py or 
-python graph1.py (for older version)
+'python graph2.py' or 
+'python graph1.py' (for older version)
 
 
----
 
-How It Works
+## How It Works
 
-1. Cartesian Plane
+#### 1. Cartesian Plane
 
 The cartesian_plane class:
 
@@ -130,9 +121,8 @@ Converts mathematical coordinates → screen pixels
 
 
 
----
 
-2. Function Plotting
+#### 2. Function Plotting
 
 Each function is sampled over a range
 
@@ -146,9 +136,7 @@ Lines are drawn between successive points
 
 
 
----
-
-3. Slider System
+#### 3. Slider System
 
 The Slider class:
 
@@ -160,9 +148,8 @@ Dynamically changes graph scale in real-time
 
 
 
----
 
-⚠️ Notes
+## ⚠️ Notes
 
 dx = 0.5 is used to reduce floating-point precision issues.
 
@@ -172,9 +159,8 @@ Large ranges or small dx may reduce performance.
 
 
 
----
 
-🔧 Future Improvements
+## 🔧 Future Improvements
 
 Zoom in/out with mouse wheel
 
@@ -190,14 +176,11 @@ Save graph as image
 
 
 
----
-
-Author:-
+#### Author:-
 
 Built by Ubaid Khan
 
 
----
 
 📜 License
 
