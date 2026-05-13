@@ -102,8 +102,9 @@ Clone the repository:
 'cd Python-Graph-maker'
 
 Run the program:
-'python graph2.py' or 
-'python graph1.py' (for older version)
+' python graph2.py ' or
+(for older version)
+' python graph1.py ' 
 
 
 
