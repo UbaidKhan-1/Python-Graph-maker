@@ -19,7 +19,7 @@ text_size = 20
 text_color = "black"
 font = pg.font.Font(None, text_size)
 font2 = pg.font.Font(None, 70)
-font3 = pg.font.Font("DancingScript-Bold.ttf", 100)
+font3 = pg.font.Font("Assets/DancingScript-Bold.ttf", 100)
 
 
 x = -10
