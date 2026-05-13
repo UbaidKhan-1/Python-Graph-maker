@@ -9,7 +9,7 @@ SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 # settings
 canvascolor = "white"
 plane_line_thickness = 3
-graph_line_thickness = 1
+graph_line_thickness = 3
 graph_text_color = "dark green"
 scale_text_color = "black"
 plane_lines_color = "black"
