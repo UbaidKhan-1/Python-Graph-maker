@@ -106,11 +106,12 @@ pip install pygame
 Clone the repository:
 
 git clone https://github.com/UbaidKhan-1/Python-Graph-maker.git
+
 cd Python-Graph-maker
 
 Run the program:
-
-python main.py
+python graph2.py or 
+python graph1.py (for older version)
 
 
 ---
