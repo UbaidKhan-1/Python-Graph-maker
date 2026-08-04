@@ -50,7 +50,7 @@ Each function is a tuple:
 
 The program displays:
 
-![Graph Preview](assets/graph.png)
+![Graph Preview](Assets/graph.png)
 
 ---
 

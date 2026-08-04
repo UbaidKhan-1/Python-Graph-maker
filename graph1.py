@@ -46,9 +46,8 @@ projection_lines_color = "red"
 
 #                      (    functions    )
 
-def f(x):
-	y = (x**2)-(4*x)
-	return y
+def f(x,deriv=False):
+    return x + 1
 	
 def f1(x):
 	y = x**2
@@ -220,10 +219,10 @@ while running:
 	
 	
 	#ploting points
-	cartesian_plane.plot(points)
-	cartesian_plane.plot(points1)
 	slider.make_slider()
 	slider.detect_sliding(mx, my)
+	cartesian_plane.plot(points)
+	cartesian_plane.plot(points1)
 	
 	run_count += 1
 	if run_count%(60*3) == 0:

@@ -32,7 +32,7 @@ progressively_draw_graph = True
 
 #list of tuples containing functions to be graphed and their colors
 functions = [(lambda x: x**2 -1, "red"),
-					  (lambda x: x+1,  "purple")]
+			(lambda x: x+1,  "purple")]
 #___________________________________
 	
 # Experimental circle point function	
