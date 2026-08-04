@@ -46,7 +46,7 @@ Each function is a tuple:
 
 The program displays:
 
-![Graph Preview](Assets/graph.png)
+![Graph Preview](Assets/graph.jpg)
 
 
 ## ⚙️ Configuration Options
